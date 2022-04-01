@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>61301d6d-90fb-4561-b2c7-58e2932462d9</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\HomeController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Controllers\HomeController.cs" />
+    <None Include="wwwroot\assets\css\all.min.css" />
+    <None Include="wwwroot\assets\css\animate.css" />
+    <None Include="wwwroot\assets\css\magnific-popup.css" />
+    <None Include="wwwroot\assets\css\main.css" />
+    <None Include="wwwroot\assets\css\meanmenu.min.css" />
+    <None Include="wwwroot\assets\css\owl.carousel.css" />
+    <None Include="wwwroot\assets\css\responsive.css" />
+    <None Include="wwwroot\assets\css\scss\base\_mixins.scss" />
+    <None Include="wwwroot\assets\css\scss\base\_typography.scss" />
+    <None Include="wwwroot\assets\css\scss\base\_variables.scss" />
+    <None Include="wwwroot\assets\css\scss\common\_common.scss" />
+    <None Include="wwwroot\assets\css\scss\common\_footer.scss" />
+    <None Include="wwwroot\assets\css\scss\common\_header.scss" />
+    <None Include="wwwroot\assets\css\scss\common\_hover.scss" />
+    <None Include="wwwroot\assets\css\scss\main.scss" />
+    <None Include="wwwroot\assets\css\scss\pages\_404.css" />
+    <None Include="wwwroot\assets\css\scss\pages\_404.scss" />
+    <None Include="wwwroot\assets\css\scss\pages\_about.scss" />
+    <None Include="wwwroot\assets\css\scss\pages\_contact.scss" />
+    <None Include="wwwroot\assets\css\scss\pages\_shop.scss" />
+    <None Include="wwwroot\assets\css\scss\sections\_about.scss" />
+    <None Include="wwwroot\assets\css\scss\sections\_cart-banner.scss" />
+    <None Include="wwwroot\assets\css\scss\sections\_hero.scss" />
+    <None Include="wwwroot\assets\css\scss\sections\_list.scss" />
+    <None Include="wwwroot\assets\css\scss\sections\_news.scss" />
+    <None Include="wwwroot\assets\css\scss\sections\_shop-banner.scss" />
+    <None Include="wwwroot\assets\css\scss\sections\_testimonials.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="3.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.2" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.2" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.2" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.2">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	  <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.2" />
+    <PackageReference Include="MimeKit" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\help-documentation\css\NewFolder - Copy\" />
+    <Folder Include="wwwroot\help-documentation\css\NewFolder\" />
+    <Folder Include="wwwroot\help-documentation\js\" />
+    <Folder Include="wwwroot\help-documentation\images\" />
+  </ItemGroup>
+
+</Project>
